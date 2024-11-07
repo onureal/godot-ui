@@ -1,3 +1,20 @@
-[gd_scene format=3 uid="uid://cigkjpvjx71k1"]
+[gd_scene load_steps=2 format=3 uid="uid://cigkjpvjx71k1"]
+
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_t6twf"]
 
 [node name="MainMenu" type="Node2D"]
+script = ExtResource("1_t6twf")
+
+[node name="Btn_Start" type="Button" parent="."]
+offset_left = 37.0
+offset_top = 29.0
+offset_right = 83.0
+offset_bottom = 60.0
+text = "Start"
+
+[node name="Btn_Options" type="Button" parent="."]
+offset_left = 32.0
+offset_top = 98.0
+offset_right = 78.0
+offset_bottom = 129.0
+text = "Options"
